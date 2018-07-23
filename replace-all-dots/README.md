@@ -1,0 +1,5 @@
+## Code Wars Solution
+*Link to all solutions:* https://www.codewars.com/users/kozlowskicd/completed_solutions
+### 00 - Replace All Dots
+The problem was to replace any instances of dots [.] in a string with dashes [-].  The string could be of any length, so the function would need to check all characters individually.  James and I originally planned to do a loop bound to the length of the string and check each character individually.  As we were working on that we found that the replace function originally used in the Code Wars kata could be made globally with a modifier, thus applying the replace function to each individual character automatically.  It also needed to be fixed with a backslash to escape the dot [.] in the code to make it readable to JavaScript.
+Resource used: https://www.tutorialrepublic.com/faq/how-to-replace-character-inside-a-string-in-javascript.php
