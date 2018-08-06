@@ -1,0 +1,4 @@
+## Code Wars Solution
+*Link to all solutions:* https://www.codewars.com/users/kozlowskicd/completed_solutions
+### 04 - Simple Validation of a Username with RegEx
+The challenge was to verify that a username string was using only permitted characters lowercase a-z, 0-9, and underscore.  It also must be between 4 and 16 characters long.  I completed the challenge by first ensuring it has the characters it need and is the correct length, then I did another check to see if it had characters it shouldn't have.  If it has none of the unpermitted characters and was of the correct length, the function will return as true.  All other instances will return as false.
