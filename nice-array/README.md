@@ -1,0 +1,4 @@
+## Code Wars Solution
+*Link to all solutions:* https://www.codewars.com/users/kozlowskicd/completed_solutions
+### 06 - Nice Array
+This function checks each number in an array with every other number in the array.  If all of the numbers are one above or one below at least one other number in the array, it is a Nice array and evaluates as true.  If not, it is not a Nice array and returns as false.  The .includes() method is used in a loop to check each number with all the others one at a time, and fills an arbitrary array with true or false values.  If at the end any false values appear in the arbitrary array, or if the array was only 1 or zero numbers long, false will be returned.  In all other cases the return will be true.
